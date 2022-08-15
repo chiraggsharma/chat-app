@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #F8F8F8;
+    background: #25c4f5;
     font-family: 'Roboto', sans-serif;
 }
 section.chat__section {
@@ -38,6 +38,7 @@ section.chat__section {
     flex-direction: column;
     overflow-y: auto;
     padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.826);
 }
 textarea {
     width: 100%;
@@ -45,7 +46,7 @@ textarea {
     padding: 20px;
     font-size: 16px;
     outline: none;
-    background: #FBFBFB;
+    background: #ffffff;
 }
 
 .message {
@@ -56,23 +57,18 @@ textarea {
     position: relative;
 }
 .incoming {
-    background: #8F8BE8;
-    color: #fff;  
+    background: #a2a1b1;
+    color: rgb(0, 0, 0);  
 }
 .outgoing {
-    background: #e9eafd;
-    color: #787986;
+    background: #c460f3;
+    color: #000000;
     margin-left: auto;
 }
 .message h4 {
     position: absolute;
     top: -20px;
     left: 0;
-    color: #333;
+    color: rgb(255, 255, 255);
     font-size: 14px;
-}
-
-footer{
-    position: relative;
-    margin-top: 10px;
 }
