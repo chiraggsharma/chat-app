@@ -12,7 +12,7 @@ http.listen(PORT, () => {
 
 // Using express middleware for 
 // Creating a route telling the server about the other url
-app.use(express.static(__dirname + '/Public')) 
+app.use(express.static(__dirname + '/public')) 
 
 
 // '/' - It means the default homepage
